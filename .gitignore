@@ -1,0 +1,40 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Segredos (RNF-03): nunca versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.hopper/
+.iuclick/
+
+# Node / Angular (console, cli)
+node_modules/
+dist/
+.angular/
+coverage/
+npm-debug.log*
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# Python (servidores MCP)
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Go (api)
+bin/
+*.test
+*.out

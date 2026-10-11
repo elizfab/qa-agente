@@ -1,0 +1,6 @@
+# Code owners revisam e aprovam PRs nas pastas abaixo.
+# Troque/adicione usuários ou times (@org/time) conforme o time crescer.
+
+*                       @elizfab
+/docs/arquitetura/      @elizfab
+/.github/               @elizfab

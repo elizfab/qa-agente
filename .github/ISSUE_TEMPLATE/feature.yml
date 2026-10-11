@@ -1,0 +1,35 @@
+name: Funcionalidade
+description: Proposta de funcionalidade ou requisito novo
+title: "feat: "
+labels: [funcionalidade]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema
+      description: Qual dor ou necessidade isso resolve? Para quem (persona)?
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: O que deve acontecer. Pode incluir esboço de tela.
+    validations:
+      required: true
+  - type: input
+    id: requisitos
+    attributes:
+      label: Requisitos relacionados
+      placeholder: RF-H02, RNF-09
+  - type: dropdown
+    id: fase
+    attributes:
+      label: Fase
+      options: [MVP, Fase 2, Fase 3, Não sei]
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite
+      placeholder: |
+        - [ ] Dado ..., quando ..., então ...

@@ -1,0 +1,16 @@
+{
+  // Regras de Markdown do projeto. Docs: https://github.com/DavidAnson/markdownlint
+  "config": {
+    "default": true,
+    "MD013": false,                 // linhas longas: tabelas e prompts quebrariam
+    "MD033": { "allowed_elements": ["p", "img", "h1", "br", "strong"] },
+    "MD041": false,                 // README começa com o logo, não com título
+    "MD024": { "siblings_only": true },
+    "MD060": false                  // estilo de tabela: não forçar alinhamento
+  },
+  "ignores": [
+    "docs/arquivo/**",
+    "docs/design/prototipo/html/**",
+    "node_modules/**"
+  ]
+}

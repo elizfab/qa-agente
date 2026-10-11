@@ -1,0 +1,32 @@
+name: Bug
+description: Algo não funciona como deveria
+title: "fix: "
+labels: [bug]
+body:
+  - type: textarea
+    id: atual
+    attributes:
+      label: O que acontece
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que deveria acontecer
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Logs, prints, ID da execução. Não cole dados reais de clientes.
